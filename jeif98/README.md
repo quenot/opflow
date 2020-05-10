@@ -11,4 +11,4 @@ Data: <br>
 
 Code: <br>
 <a href="https://github.com/quenot/opflow/raw/master/jeif98/code.tgz">code.tgz</a> : source of the optical flow code. <br>
-There are two versions of the code, "original" which is the version of the code as it was at the time at which the experiments were made and "threaded" which differ from the former by the insertion of a single OpenMP paralle directive. Both contain a makefile for compilation on linux systems, either with the GNU or the intel compiler (if available). It should be easy to modift the top-level makefile to have the code compile on any Unix-like system.
+There are two versions of the code, "original" which is the version of the code as it was at the time at which the experiments were carried out and "threaded" which differ from the former by the insertion of a single OpenMP paralle directive. Both contain a makefile for compilation on linux systems, either with the GNU or the intel compiler (if available). It should be easy to modift the top-level makefile to have the code compile on any Unix-like system.
