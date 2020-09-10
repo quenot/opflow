@@ -6,8 +6,8 @@ Paper: <br>
 <a href="https://github.com/quenot/opflow/raw/master/jeif98/jeif98-author.pdf">jeif98-author.pdf</a> : author version of the reference paper. <br>
 
 Data: <br>
-<a href="https://github.com/quenot/opflow/raw/master/jeif98/synthetic.tgz">synthetic.tgz</a> : synthetic images and vector fields for the calibration experiments (23MB). <br>
-<a href="https://github.com/quenot/opflow/raw/master/jeif98/real.tgz">real.tgz</a> : real images for the freezing cavity experiments (1 MB).
+<a href="https://github.com/quenot/opflow/raw/master/jeif98/synthetic">synthetic.tgz</a> : synthetic images and vector fields for the calibration experiments (23MB). <br>
+<a href="https://github.com/quenot/opflow/raw/master/jeif98/real">real.tgz</a> : real images for the freezing cavity experiments (1 MB).
 
 Code: <br>
 <a href="https://github.com/quenot/opflow/raw/master/jeif98/code.tgz">code.tgz</a> : source of the optical flow code. <br>
