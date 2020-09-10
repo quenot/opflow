@@ -1,17 +1,24 @@
+MKDIR_P = mkdir -p
 
-         PROGRAMS = $(BIN)/opflow $(BIN)/uwogamma
+.PHONY: DIRECTORIES
 
-all::	$(PROGRAMS)
+DIRECTORIES = $(BIN) $(OBD)
+PROGRAMS = $(BIN)/opflow $(BIN)/uwogamma
+
+all::	$(PROGRAMS) $(DIRECTORIES)
+
+$(OBD): $(MKDIR_P) $(OBD)
+$(BIN): $(MKDIR_P) $(BIN)
 
 $(BIN)/opflow:  $(OBD)/opflow.o $(OBD)/tens.o $(OBD)/imio.o $(OBD)/inpo.o \
                 $(OBD)/opfl.o $(OBD)/velo.o
 		$(RM) $@
-		$(CC) $(CFLAGS) $(LIBRARYDIR) -o $@ $(OBD)/opflow.o \
+		$(CC) $(CFLAGS) -o $@ $(OBD)/opflow.o \
                 $(OBD)/tens.o $(OBD)/imio.o $(OBD)/inpo.o $(OBD)/opfl.o \
                 $(OBD)/velo.o -lm
 $(BIN)/uwogamma: $(OBD)/uwogamma.o $(OBD)/tens.o $(OBD)/imio.o
 		$(RM) $@
-		$(CC) $(CFLAGS) $(LIBRARYDIR) -o $@ $(OBD)/uwogamma.o \
+		$(CC) $(CFLAGS) -o $@ $(OBD)/uwogamma.o \
                 $(OBD)/tens.o $(OBD)/imio.o -lm
 
 $(OBD)/%.o: %.c
