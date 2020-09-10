@@ -1,0 +1,10 @@
+synthetic3.sh $1 cyl10 perfect $2
+synthetic3.sh $1 cyl10 noise05 $2
+synthetic3.sh $1 cyl10 noise10 $2
+synthetic3.sh $1 cyl10 noise20 $2
+synthetic3.sh $1 cyl10 addrm05 $2
+synthetic3.sh $1 cyl10 addrm10 $2
+synthetic3.sh $1 cyl10 addrm20 $2
+synthetic3.sh $1 cyl10 mixed05 $2
+synthetic3.sh $1 cyl10 mixed10 $2
+synthetic3.sh $1 cyl10 mixed20 $2
