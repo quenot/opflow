@@ -15,5 +15,5 @@ Code: <br>
 There are two versions of the code, "original" which is the version of the code as it was at the time at which the experiments were carried out and "threaded" which differ from the former by the insertion of a single OpenMP parallel directive. Both contain a makefile for compilation on linux systems, either with the GNU or the intel compiler (if available). It should be easy to modify the top-level makefile to have the code compile on any Unix-like system.
 
 Scripts: <br>
-The top-level script for running the "synthetic" experiments is <a href="https://github.com/quenot/opflow/raw/master/jeif98/bat8.sh">bat8.sh</a>
+The top-level script for running the "synthetic" experiments is <a href="https://github.com/quenot/opflow/raw/master/jeif98/bat8.sh">bat8.sh</a> </br>
 The top-level script for running the "real" experiments is <a href="https://github.com/quenot/opflow/raw/master/jeif98/treal60.sh">treal60.sh</a>
