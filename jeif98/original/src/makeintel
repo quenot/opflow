@@ -2,15 +2,10 @@
               ASY = ../intel
 
               BIN = $(ASY)/bin
-              LIB = $(ASY)/lib
               OBD = $(ASY)/obj
-
-       INCLUDEDIR = -I/usr/X11R6/include
-       LIBRARYDIR = -L/usr/X11R6/lib -L$(LIB)
-       DMEDIALIBS = 
 
                RM = rm -f
                CC = icc
-           CFLAGS = -Dlinux -O2 -Wall $(INCLUDEDIR)
+           CFLAGS = -Dlinux -O2 -Wall
 
 include common.mk
