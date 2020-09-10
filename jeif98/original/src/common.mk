@@ -7,8 +7,10 @@ PROGRAMS = $(BIN)/opflow $(BIN)/uwogamma
 
 all::	$(DIRECTORIES) $(PROGRAMS)
 
-$(OBD):	$(MKDIR_P) $(OBD)
-$(BIN): $(MKDIR_P) $(BIN)
+$(OBD):
+	$(MKDIR_P) $(OBD)
+$(BIN):
+	$(MKDIR_P) $(BIN)
 
 $(BIN)/opflow:  $(OBD)/opflow.o $(OBD)/tens.o $(OBD)/imio.o $(OBD)/inpo.o \
                 $(OBD)/opfl.o $(OBD)/velo.o
