@@ -17,4 +17,4 @@ There are two versions of the code, "original" which is the version of the code 
 Scripts: <br>
 The top-level script for running the "synthetic" experiments is <a href="https://github.com/quenot/opflow/raw/master/jeif98/bat8.sh">bat8.sh</a> </br>
 The top-level script for running the "real" experiments is <a href="https://github.com/quenot/opflow/raw/master/jeif98/treal60.sh">treal60.sh</a>
-These scripts assume the presence of executables compiled with both the GNUN and the Intel compilers. If Intel executable are absent, the corresponding lines in the scripts should be commented out.
+These scripts assume the presence of executables compiled with both the GNU and the Intel compilers. If Intel executable are absent, the corresponding lines in the scripts should be commented out.
