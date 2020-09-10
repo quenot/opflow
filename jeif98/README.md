@@ -10,4 +10,5 @@ Data: <br>
 <a href="https://github.com/quenot/opflow/raw/master/jeif98/real.tgz">real.tgz</a> : real images for the freezing cavity experiments (1 MB).
 
 Code: <br>
-<a href="https://github.com/quenot/opflow/raw/master/jeif98/code.tgz">code.tgz</a> : source of the optical flow code.
+<a href="https://github.com/quenot/opflow/raw/master/jeif98/code.tgz">code.tgz</a> : source of the optical flow code. <br>
+There are two versions of the code, "original" which is the version of the code as it was at the time at which the experiments were carried out and "threaded" which differ from the former by the insertion of a single OpenMP parallel directive. Both contain a makefile for compilation on linux systems, either with the GNU or the intel compiler (if available). It should be easy to modify the top-level makefile to have the code compile on any Unix-like system.
