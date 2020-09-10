@@ -2,15 +2,10 @@
               ASY = ../linux
 
               BIN = $(ASY)/bin
-              LIB = $(ASY)/lib
               OBD = $(ASY)/obj
-
-       INCLUDEDIR = -I/usr/X11R6/include
-       LIBRARYDIR = -L/usr/X11R6/lib -L$(LIB)
-       DMEDIALIBS = 
 
                RM = rm -f
                CC = gcc
-           CFLAGS = -Dlinux -O2 -Wall -fopenmp -pthread $(INCLUDEDIR)
+           CFLAGS = -Dlinux -O2 -Wall -fopenmp -pthread
 
 include common.mk
