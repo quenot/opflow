@@ -2,12 +2,7 @@
               ASY = ../intelc
 
               BIN = $(ASY)/bin
-              LIB = $(ASY)/lib
               OBD = $(ASY)/obj
-
-       INCLUDEDIR = -I/usr/X11R6/include
-       LIBRARYDIR = -L/usr/X11R6/lib -L$(LIB)
-       DMEDIALIBS = 
 
                RM = rm -f
                CC = icc
