@@ -1,7 +1,7 @@
 #!/bin/bash
-treal.sh original/linux
-treal.sh original/intelc
-treal.sh original/intel
-treal.sh threaded/linux
-treal.sh threaded/intelc
-treal.sh threaded/intel
+bash treal.sh original/linux
+#bash treal.sh original/intelc
+#bash treal.sh original/intel
+bash treal.sh threaded/linux
+#bash treal.sh threaded/intelc
+#bash treal.sh threaded/intel
